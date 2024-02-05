@@ -4,5 +4,6 @@ void main(List<String> arguments) {
     // Formatear la fecha y hora
     String formattedDateTime = "${now.year}-${now.month}-${now.day} ${now.hour}:${now.minute}:${now.second}";
     // Imprimir el mensaje con la fecha y hora
+    print("Conflicto");
     print('Hello world: ($formattedDateTime)');
 }
